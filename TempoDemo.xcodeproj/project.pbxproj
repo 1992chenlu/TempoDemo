@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587977361B6A700300112DCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587977351B6A700300112DCE /* main.m */; };
+		587977391B6A700300112DCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587977381B6A700300112DCE /* AppDelegate.m */; };
+		5879773C1B6A700300112DCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879773B1B6A700300112DCE /* ViewController.m */; };
+		5879773F1B6A700300112DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5879773D1B6A700300112DCE /* Main.storyboard */; };
+		587977411B6A700300112DCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587977401B6A700300112DCE /* Images.xcassets */; };
+		587977441B6A700300112DCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587977421B6A700300112DCE /* LaunchScreen.xib */; };
+		587977501B6A700400112DCE /* TempoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879774F1B6A700400112DCE /* TempoDemoTests.m */; };
+		5879775A1B6A703800112DCE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587977591B6A703800112DCE /* CoreMotion.framework */; };
+		5879775C1B6A704600112DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879775B1B6A704600112DCE /* QuartzCore.framework */; };
+		5879775E1B6A705F00112DCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879775D1B6A705F00112DCE /* UIKit.framework */; };
+		587977601B6A706500112DCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879775F1B6A706500112DCE /* Foundation.framework */; };
+		587977621B6A707200112DCE /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587977611B6A707200112DCE /* Spotify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5879774A1B6A700400112DCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587977281B6A700300112DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5879772F1B6A700300112DCE;
+			remoteInfo = TempoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		587977301B6A700300112DCE /* TempoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587977341B6A700300112DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587977351B6A700300112DCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587977371B6A700300112DCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587977381B6A700300112DCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5879773A1B6A700300112DCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5879773B1B6A700300112DCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5879773E1B6A700300112DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		587977401B6A700300112DCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		587977431B6A700300112DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		587977491B6A700400112DCE /* TempoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5879774E1B6A700400112DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5879774F1B6A700400112DCE /* TempoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempoDemoTests.m; sourceTree = "<group>"; };
+		587977591B6A703800112DCE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5879775B1B6A704600112DCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5879775D1B6A705F00112DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5879775F1B6A706500112DCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		587977611B6A707200112DCE /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5879772D1B6A700300112DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587977601B6A706500112DCE /* Foundation.framework in Frameworks */,
+				5879775E1B6A705F00112DCE /* UIKit.framework in Frameworks */,
+				5879775C1B6A704600112DCE /* QuartzCore.framework in Frameworks */,
+				587977621B6A707200112DCE /* Spotify.framework in Frameworks */,
+				5879775A1B6A703800112DCE /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587977461B6A700400112DCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587977271B6A700300112DCE = {
+			isa = PBXGroup;
+			children = (
+				587977321B6A700300112DCE /* TempoDemo */,
+				5879774C1B6A700400112DCE /* TempoDemoTests */,
+				587977311B6A700300112DCE /* Products */,
+				587977631B6A707E00112DCE /* Framework */,
+			);
+			sourceTree = "<group>";
+		};
+		587977311B6A700300112DCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587977301B6A700300112DCE /* TempoDemo.app */,
+				587977491B6A700400112DCE /* TempoDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587977321B6A700300112DCE /* TempoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				587977371B6A700300112DCE /* AppDelegate.h */,
+				587977381B6A700300112DCE /* AppDelegate.m */,
+				5879773A1B6A700300112DCE /* ViewController.h */,
+				5879773B1B6A700300112DCE /* ViewController.m */,
+				5879773D1B6A700300112DCE /* Main.storyboard */,
+				587977401B6A700300112DCE /* Images.xcassets */,
+				587977421B6A700300112DCE /* LaunchScreen.xib */,
+				587977331B6A700300112DCE /* Supporting Files */,
+			);
+			path = TempoDemo;
+			sourceTree = "<group>";
+		};
+		587977331B6A700300112DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587977341B6A700300112DCE /* Info.plist */,
+				587977351B6A700300112DCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5879774C1B6A700400112DCE /* TempoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5879774F1B6A700400112DCE /* TempoDemoTests.m */,
+				5879774D1B6A700400112DCE /* Supporting Files */,
+			);
+			path = TempoDemoTests;
+			sourceTree = "<group>";
+		};
+		5879774D1B6A700400112DCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5879774E1B6A700400112DCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587977631B6A707E00112DCE /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				587977611B6A707200112DCE /* Spotify.framework */,
+				5879775F1B6A706500112DCE /* Foundation.framework */,
+				5879775D1B6A705F00112DCE /* UIKit.framework */,
+				5879775B1B6A704600112DCE /* QuartzCore.framework */,
+				587977591B6A703800112DCE /* CoreMotion.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5879772F1B6A700300112DCE /* TempoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587977531B6A700400112DCE /* Build configuration list for PBXNativeTarget "TempoDemo" */;
+			buildPhases = (
+				5879772C1B6A700300112DCE /* Sources */,
+				5879772D1B6A700300112DCE /* Frameworks */,
+				5879772E1B6A700300112DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempoDemo;
+			productName = TempoDemo;
+			productReference = 587977301B6A700300112DCE /* TempoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587977481B6A700400112DCE /* TempoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587977561B6A700400112DCE /* Build configuration list for PBXNativeTarget "TempoDemoTests" */;
+			buildPhases = (
+				587977451B6A700400112DCE /* Sources */,
+				587977461B6A700400112DCE /* Frameworks */,
+				587977471B6A700400112DCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5879774B1B6A700400112DCE /* PBXTargetDependency */,
+			);
+			name = TempoDemoTests;
+			productName = TempoDemoTests;
+			productReference = 587977491B6A700400112DCE /* TempoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587977281B6A700300112DCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ChenLu;
+				TargetAttributes = {
+					5879772F1B6A700300112DCE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					587977481B6A700400112DCE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5879772F1B6A700300112DCE;
+					};
+				};
+			};
+			buildConfigurationList = 5879772B1B6A700300112DCE /* Build configuration list for PBXProject "TempoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587977271B6A700300112DCE;
+			productRefGroup = 587977311B6A700300112DCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5879772F1B6A700300112DCE /* TempoDemo */,
+				587977481B6A700400112DCE /* TempoDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5879772E1B6A700300112DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879773F1B6A700300112DCE /* Main.storyboard in Resources */,
+				587977441B6A700300112DCE /* LaunchScreen.xib in Resources */,
+				587977411B6A700300112DCE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587977471B6A700400112DCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5879772C1B6A700300112DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879773C1B6A700300112DCE /* ViewController.m in Sources */,
+				587977391B6A700300112DCE /* AppDelegate.m in Sources */,
+				587977361B6A700300112DCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587977451B6A700400112DCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587977501B6A700400112DCE /* TempoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5879774B1B6A700400112DCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5879772F1B6A700300112DCE /* TempoDemo */;
+			targetProxy = 5879774A1B6A700400112DCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5879773D1B6A700300112DCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5879773E1B6A700300112DCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		587977421B6A700300112DCE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587977431B6A700300112DCE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587977511B6A700400112DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		587977521B6A700400112DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587977541B6A700400112DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TempoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		587977551B6A700400112DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TempoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		587977571B6A700400112DCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TempoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoDemo.app/TempoDemo";
+			};
+			name = Debug;
+		};
+		587977581B6A700400112DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TempoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempoDemo.app/TempoDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5879772B1B6A700300112DCE /* Build configuration list for PBXProject "TempoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587977511B6A700400112DCE /* Debug */,
+				587977521B6A700400112DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587977531B6A700400112DCE /* Build configuration list for PBXNativeTarget "TempoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587977541B6A700400112DCE /* Debug */,
+				587977551B6A700400112DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		587977561B6A700400112DCE /* Build configuration list for PBXNativeTarget "TempoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587977571B6A700400112DCE /* Debug */,
+				587977581B6A700400112DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587977281B6A700300112DCE /* Project object */;
+}
